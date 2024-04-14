@@ -1,13 +1,17 @@
 package com.camiloh.estudospringframework.game;
 
 public class GameRunner {
-	MarioGame game;
+	GamingConsole game;
 	
-	public GameRunner(MarioGame game) {
+	public GameRunner(GamingConsole game) {
 		this.game = game;
 	}
 
 	public void run() {
 		System.out.println("Running game : " + game);
+		game.up();
+		game.left();
+		game.right();
+		game.down();
 	}
 }

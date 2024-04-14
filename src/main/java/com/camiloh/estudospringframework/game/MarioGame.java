@@ -1,6 +1,6 @@
 package com.camiloh.estudospringframework.game;
 
-public class MarioGame {
+public class MarioGame implements GamingConsole {
 
 	public void up() {
 		System.out.println("Pulando");
@@ -14,7 +14,7 @@ public class MarioGame {
 		System.out.println("Voltando");
 	}
 
-	public void rigth() {
+	public void right() {
 		System.out.println("Seguindo");
 
 	}

@@ -1,12 +1,13 @@
 package com.camiloh.estudospringframework.game;
 
-public class SuperContraGame implements GamingConsole {
+public class PacManGame implements GamingConsole {
+
 	public void up() {
-		System.out.println("Pulando");
+		System.out.println("Subindo");
 	}
 
 	public void down() {
-		System.out.println("Agachando");
+		System.out.println("Descendo");
 	}
 
 	public void left() {
@@ -17,6 +18,4 @@ public class SuperContraGame implements GamingConsole {
 		System.out.println("Seguindo");
 
 	}
-
-	
 }
