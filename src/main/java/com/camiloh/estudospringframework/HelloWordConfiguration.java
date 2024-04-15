@@ -29,6 +29,6 @@ public class HelloWordConfiguration {
 
 	@Bean
 	public Address address() {
-		return new Address("BR", "Fortaleza");S
+		return new Address("BR", "Fortaleza");
 	}
 }
